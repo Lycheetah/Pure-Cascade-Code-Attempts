@@ -1,0 +1,767 @@
+{
+  "demonstration_timestamp": "2025-12-31T20:25:21.847196",
+  "tier_1_core": {
+    "medicine": {
+      "domain": "medicine",
+      "timestamp": "2025-12-31T20:25:21.847202",
+      "layers": {
+        "foundation": [
+          {
+            "content": "Disease is caused by microorganisms (germ theory)",
+            "compression": 0.98,
+            "evidence": 0.98
+          }
+        ],
+        "theory": [
+          {
+            "content": "Quarantine prevents disease spread",
+            "compression": 0.85
+          },
+          {
+            "content": "[Classical] Disease spreads through bad air (miasma theory)",
+            "compression": 0.4
+          }
+        ],
+        "edge": []
+      },
+      "metrics": {
+        "coherence": 0.6666666666666667,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.6,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 1,
+        "snapshots": 1
+      }
+    }
+  },
+  "tier_2_research": {
+    "network": {
+      "network_name": "Medical_Research_Network",
+      "total_pyramids": 3,
+      "domains": [
+        "microbiology",
+        "immunology",
+        "epidemiology"
+      ],
+      "knowledge_transfers": {
+        "total": 1,
+        "successful": 1,
+        "by_type": {
+          "foundation": 0,
+          "theory": 1,
+          "edge": 0
+        }
+      },
+      "cascade_propagations": 0,
+      "synthesis_events": 1,
+      "total_knowledge_blocks": 5
+    },
+    "microbiology": {
+      "domain": "microbiology",
+      "timestamp": "2025-12-31T20:25:21.847222",
+      "layers": {
+        "foundation": [
+          {
+            "content": "Bacteria are single-celled prokaryotic organisms",
+            "compression": 0.95,
+            "evidence": 0.95
+          }
+        ],
+        "theory": [
+          {
+            "content": "Pathogenic bacteria cause infectious diseases",
+            "compression": 0.93
+          }
+        ],
+        "edge": []
+      },
+      "metrics": {
+        "coherence": 1.0,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.5,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 0,
+        "snapshots": 0
+      }
+    },
+    "immunology": {
+      "domain": "immunology",
+      "timestamp": "2025-12-31T20:25:21.847231",
+      "layers": {
+        "foundation": [
+          {
+            "content": "Immune system defends against pathogens",
+            "compression": 0.96,
+            "evidence": 0.96
+          }
+        ],
+        "theory": [
+          {
+            "content": "Antibodies neutralize specific pathogens",
+            "compression": 0.94
+          }
+        ],
+        "edge": []
+      },
+      "metrics": {
+        "coherence": 1.0,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.5,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 0,
+        "snapshots": 0
+      }
+    },
+    "epidemiology": {
+      "domain": "epidemiology",
+      "timestamp": "2025-12-31T20:25:21.847237",
+      "layers": {
+        "foundation": [],
+        "theory": [
+          {
+            "content": "[From microbiology] Pathogenic bacteria cause infectious diseases",
+            "compression": 0.8370000000000001
+          }
+        ],
+        "edge": []
+      },
+      "metrics": {
+        "coherence": 1.0,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.5,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 0,
+        "snapshots": 0
+      }
+    }
+  },
+  "tier_3_meta_learning": {
+    "evolution_cycles": 2,
+    "genetics": {
+      "domain": "genetics",
+      "timestamp": "2025-12-31T20:25:21.847243",
+      "layers": {
+        "foundation": [
+          {
+            "content": "DNA stores genetic information in nucleotide sequences",
+            "compression": 0.98,
+            "evidence": 0.98
+          }
+        ],
+        "theory": [
+          {
+            "content": "Genes are functional units of heredity",
+            "compression": 0.96
+          }
+        ],
+        "edge": [
+          {
+            "content": "Epigenetic modifications regulate gene expression without changing DNA sequence",
+            "compression": 0.94
+          },
+          {
+            "content": "Personalized medicine tailors treatment based on individual genetics",
+            "compression": 0.92
+          },
+          {
+            "content": "CRISPR-Cas9 enables precise genome editing",
+            "compression": 0.96
+          },
+          {
+            "content": "Gene therapy delivers genetic material to treat disease",
+            "compression": 0.91
+          }
+        ]
+      },
+      "metrics": {
+        "coherence": 1.0,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.5,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 0,
+        "snapshots": 0
+      },
+      "research_data": {
+        "llm_stats": {
+          "total_calls": 0,
+          "cached_evaluations": 0,
+          "cache_hit_rate": 1.0
+        },
+        "compatibility_evaluations": 0,
+        "cascade_predictions": 8,
+        "predictions": [
+          {
+            "timestamp": "2025-12-31T20:25:21.821061",
+            "block": "Epigenetic modifications regulate gene expression without changing DNA sequence",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821075",
+            "block": "Epigenetic modifications regulate gene expression without changing DNA sequence",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821207",
+            "block": "Personalized medicine tailors treatment based on individual genetics",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821222",
+            "block": "Personalized medicine tailors treatment based on individual genetics",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821308",
+            "block": "CRISPR-Cas9 enables precise genome editing",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821318",
+            "block": "CRISPR-Cas9 enables precise genome editing",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.846163",
+            "block": "Gene therapy delivers genetic material to treat disease",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.846177",
+            "block": "Gene therapy delivers genetic material to treat disease",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          }
+        ]
+      },
+      "meta_learning": {
+        "generation": 2,
+        "meta_learning_cycles": 2,
+        "current_threshold": 0.7277777777777777,
+        "experience_buffer_size": 4,
+        "predictor_trained": false,
+        "optimization_history": [
+          {
+            "cycle": 1,
+            "generation": 1,
+            "experiences_used": 2,
+            "old_threshold": 0.85,
+            "new_threshold": 0.7,
+            "predictor_metrics": {
+              "error": "Insufficient training data"
+            },
+            "threshold_stats": {
+              "current_threshold": 0.85,
+              "best_threshold": 0.7,
+              "exploration_rate": 0.0985074875,
+              "total_updates": 3,
+              "arm_statistics": {
+                "0.700": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.728": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.756": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.783": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.811": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.839": {
+                  "tries": 3,
+                  "avg_reward": -3.4666655111114964e-06
+                },
+                "0.867": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.894": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.922": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.950": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                }
+              }
+            },
+            "experience_stats": {
+              "total": 3,
+              "successful": 0,
+              "failed": 3,
+              "success_rate": 0.0,
+              "avg_coherence_improvement": 0.0,
+              "avg_computational_cost": 3.4666666666666665e-05
+            },
+            "timestamp": "2025-12-31T20:25:21.845772"
+          },
+          {
+            "cycle": 2,
+            "generation": 2,
+            "experiences_used": 2,
+            "old_threshold": 0.7,
+            "new_threshold": 0.7277777777777777,
+            "predictor_metrics": {
+              "error": "Insufficient training data"
+            },
+            "threshold_stats": {
+              "current_threshold": 0.85,
+              "best_threshold": 0.7277777777777777,
+              "exploration_rate": 0.09801495006250001,
+              "total_updates": 4,
+              "arm_statistics": {
+                "0.700": {
+                  "tries": 1,
+                  "avg_reward": -4.6999953000047e-06
+                },
+                "0.728": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.756": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.783": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.811": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.839": {
+                  "tries": 3,
+                  "avg_reward": -3.4666655111114964e-06
+                },
+                "0.867": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.894": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.922": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                },
+                "0.950": {
+                  "tries": 0,
+                  "avg_reward": 0.0
+                }
+              }
+            },
+            "experience_stats": {
+              "total": 4,
+              "successful": 0,
+              "failed": 4,
+              "success_rate": 0.0,
+              "avg_coherence_improvement": 0.0,
+              "avg_computational_cost": 3.7749999999999996e-05
+            },
+            "timestamp": "2025-12-31T20:25:21.846582"
+          }
+        ],
+        "threshold_optimization": {
+          "current_threshold": 0.85,
+          "best_threshold": 0.7277777777777777,
+          "exploration_rate": 0.09801495006250001,
+          "total_updates": 4,
+          "arm_statistics": {
+            "0.700": {
+              "tries": 1,
+              "avg_reward": -4.6999953000047e-06
+            },
+            "0.728": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.756": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.783": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.811": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.839": {
+              "tries": 3,
+              "avg_reward": -3.4666655111114964e-06
+            },
+            "0.867": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.894": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.922": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.950": {
+              "tries": 0,
+              "avg_reward": 0.0
+            }
+          }
+        },
+        "experience_statistics": {
+          "total": 4,
+          "successful": 0,
+          "failed": 4,
+          "success_rate": 0.0,
+          "avg_coherence_improvement": 0.0,
+          "avg_computational_cost": 3.7749999999999996e-05
+        }
+      },
+      "llm_finetuning_data": [
+        {
+          "features": {
+            "trigger_compression": 0.94,
+            "trigger_evidence": 0.94,
+            "pre_coherence": 1.0,
+            "foundation_count": 1,
+            "theory_count": 1,
+            "cascade_threshold": 0.85,
+            "aura_tes": 0.85,
+            "aura_vtr": 1.5,
+            "aura_pai": 0.9
+          },
+          "outcomes": {
+            "coherence_delta": 0.0,
+            "accuracy_delta": 0.0,
+            "stability": 1.0,
+            "cost": 4.5e-05
+          },
+          "optimal_threshold": 0.85
+        },
+        {
+          "features": {
+            "trigger_compression": 0.92,
+            "trigger_evidence": 0.92,
+            "pre_coherence": 1.0,
+            "foundation_count": 1,
+            "theory_count": 1,
+            "cascade_threshold": 0.85,
+            "aura_tes": 0.85,
+            "aura_vtr": 1.5,
+            "aura_pai": 0.9
+          },
+          "outcomes": {
+            "coherence_delta": 0.0,
+            "accuracy_delta": 0.0,
+            "stability": 1.0,
+            "cost": 3.3e-05
+          },
+          "optimal_threshold": 0.85
+        },
+        {
+          "features": {
+            "trigger_compression": 0.96,
+            "trigger_evidence": 0.96,
+            "pre_coherence": 1.0,
+            "foundation_count": 1,
+            "theory_count": 1,
+            "cascade_threshold": 0.85,
+            "aura_tes": 0.85,
+            "aura_vtr": 1.5,
+            "aura_pai": 0.9
+          },
+          "outcomes": {
+            "coherence_delta": 0.0,
+            "accuracy_delta": 0.0,
+            "stability": 1.0,
+            "cost": 2.6e-05
+          },
+          "optimal_threshold": 0.85
+        },
+        {
+          "features": {
+            "trigger_compression": 0.91,
+            "trigger_evidence": 0.91,
+            "pre_coherence": 1.0,
+            "foundation_count": 1,
+            "theory_count": 1,
+            "cascade_threshold": 0.7,
+            "aura_tes": 0.85,
+            "aura_vtr": 1.5,
+            "aura_pai": 0.9
+          },
+          "outcomes": {
+            "coherence_delta": 0.0,
+            "accuracy_delta": 0.0,
+            "stability": 1.0,
+            "cost": 4.7e-05
+          },
+          "optimal_threshold": 0.7
+        }
+      ]
+    },
+    "pharmacology": {
+      "domain": "pharmacology",
+      "timestamp": "2025-12-31T20:25:21.847325",
+      "layers": {
+        "foundation": [
+          {
+            "content": "Drugs interact with biological targets to alter physiology",
+            "compression": 0.95,
+            "evidence": 0.95
+          }
+        ],
+        "theory": [],
+        "edge": [
+          {
+            "content": "Targeted therapy uses drugs that attack specific molecular targets",
+            "compression": 0.93
+          }
+        ]
+      },
+      "metrics": {
+        "coherence": 1.0,
+        "aura": {
+          "tes": 0.85,
+          "vtr": 1.5,
+          "pai": 0.9
+        }
+      },
+      "history": {
+        "cascades": 0,
+        "snapshots": 0
+      },
+      "research_data": {
+        "llm_stats": {
+          "total_calls": 0,
+          "cached_evaluations": 0,
+          "cache_hit_rate": 1.0
+        },
+        "compatibility_evaluations": 0,
+        "cascade_predictions": 2,
+        "predictions": [
+          {
+            "timestamp": "2025-12-31T20:25:21.821381",
+            "block": "Targeted therapy uses drugs that attack specific molecular targets",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          },
+          {
+            "timestamp": "2025-12-31T20:25:21.821388",
+            "block": "Targeted therapy uses drugs that attack specific molecular targets",
+            "analysis": {
+              "should_cascade": true,
+              "classification": "CASCADE",
+              "reasoning": "Strong evidence contradicts foundational axioms and explains anomalies",
+              "contradicted_foundations": [
+                0,
+                1
+              ],
+              "paradigm_shift_magnitude": 0.92
+            }
+          }
+        ]
+      },
+      "meta_learning": {
+        "generation": 0,
+        "meta_learning_cycles": 0,
+        "current_threshold": 0.7818333333333332,
+        "experience_buffer_size": 1,
+        "predictor_trained": false,
+        "optimization_history": [],
+        "threshold_optimization": {
+          "current_threshold": 0.85,
+          "best_threshold": 0.7,
+          "exploration_rate": 0.0995,
+          "total_updates": 1,
+          "arm_statistics": {
+            "0.700": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.728": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.756": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.783": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.811": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.839": {
+              "tries": 1,
+              "avg_reward": -2.0999979000021e-06
+            },
+            "0.867": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.894": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.922": {
+              "tries": 0,
+              "avg_reward": 0.0
+            },
+            "0.950": {
+              "tries": 0,
+              "avg_reward": 0.0
+            }
+          }
+        },
+        "experience_statistics": {
+          "total": 1,
+          "successful": 0,
+          "failed": 1,
+          "success_rate": 0.0,
+          "avg_coherence_improvement": 0.0,
+          "avg_computational_cost": 2.1e-05
+        }
+      },
+      "llm_finetuning_data": [
+        {
+          "features": {
+            "trigger_compression": 0.93,
+            "trigger_evidence": 0.93,
+            "pre_coherence": 1.0,
+            "foundation_count": 1,
+            "theory_count": 0,
+            "cascade_threshold": 0.85,
+            "aura_tes": 0.85,
+            "aura_vtr": 1.5,
+            "aura_pai": 0.9
+          },
+          "outcomes": {
+            "coherence_delta": 0.0,
+            "accuracy_delta": 0.0,
+            "stability": 1.0,
+            "cost": 2.1e-05
+          },
+          "optimal_threshold": 0.85
+        }
+      ]
+    }
+  }
+}
