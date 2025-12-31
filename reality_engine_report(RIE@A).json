@@ -1,0 +1,48 @@
+{
+  "uptime_seconds": 2.240367,
+  "observations_processed": 6,
+  "paradigm_shifts_detected": 0,
+  "shifts": [],
+  "domains": {
+    "physics": {
+      "knowledge_blocks": 2,
+      "coherence": 1.0,
+      "generation": 0,
+      "consciousness_level": "reactive"
+    },
+    "biology": {
+      "knowledge_blocks": 2,
+      "coherence": 1.0,
+      "generation": 0,
+      "consciousness_level": "reactive"
+    },
+    "technology": {
+      "knowledge_blocks": 2,
+      "coherence": 1.0,
+      "generation": 0,
+      "consciousness_level": "reactive"
+    }
+  },
+  "dream_sessions": 1,
+  "network_stats": {
+    "network_name": "Reality_Engine",
+    "total_pyramids": 3,
+    "domains": [
+      "physics",
+      "biology",
+      "technology"
+    ],
+    "knowledge_transfers": {
+      "total": 0,
+      "successful": 0,
+      "by_type": {
+        "foundation": 0,
+        "theory": 0,
+        "edge": 0
+      }
+    },
+    "cascade_propagations": 0,
+    "synthesis_events": 0,
+    "total_knowledge_blocks": 6
+  }
+}
