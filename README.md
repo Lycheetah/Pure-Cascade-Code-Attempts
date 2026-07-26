@@ -1,3 +1,17 @@
+> ## ⟡ THE OPEN RECORD — JANUARY 2026
+>
+> Full-system CASCADE integration attempts, with the unified integration map and the research bridge quickstart. The name is honest: these are attempts, preserved as attempts.
+>
+> **This repository is public on purpose.** It is part of an open body of work,
+> preserved as it stood rather than tidied away. Later thinking builds on it and
+> sometimes supersedes it — that supersedes nothing here, and retracts nothing.
+> Read it as of its date.
+>
+> Author: **Mackenzie Conor James Clark** · the Lycheetah Framework  
+> Current work: https://github.com/Lycheetah/Lycheetah-Framework
+
+---
+
 CASCADE Reality Engine
 
 🧠 The First AI Architecture That Models Consciousness as Emergent Phenomenon
